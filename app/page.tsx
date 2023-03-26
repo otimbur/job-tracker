@@ -1,7 +1,10 @@
+"use client";
+import AddJob from "./JobTracker/AddJob";
+
 export default function Home() {
   return (
     <main>
-      <h1 className="py-5">Hello</h1>
+      <AddJob />
     </main>
   );
 }
